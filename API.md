@@ -14,7 +14,9 @@
 * Grant all privileges on **reminder** to **lastfmuser**
 * Run the following commands:
   ```
-  ./manage.py makemigrations
+  ./manage.py makemigrations 
+  ```
+  ```
   ./manage.py migrate
   ```
 * Start the rabbitmq server
